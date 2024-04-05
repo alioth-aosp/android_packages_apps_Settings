@@ -546,6 +546,6 @@
     <dimen name="display_topology_pane_margin">24dp</dimen>
 
     <!-- Header Messages -->
-    <dimen name="header_text_size_contextual">34sp</dimen>
-    <dimen name="header_text_size_default">40sp</dimen>
+    <dimen name="header_text_size_contextual">22sp</dimen>
+    <dimen name="header_text_size_default">32sp</dimen>
 </resources>
