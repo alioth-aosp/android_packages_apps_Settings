@@ -249,7 +249,6 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
 
             String key = preference.getKey();
             if (key.equals("top_level_network")
-            	|| key.equals("top_level_superior_lab")
             	|| key.equals("top_level_apps")
             	|| key.equals("top_level_accessibility")
             	|| key.equals("top_level_emergency")
@@ -261,6 +260,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             	|| key.equals("top_level_privacy")
             	|| key.equals("top_level_safety_center")
             	|| key.equals("top_level_storage")
+                || key.equals("top_level_wallpaper")
             	|| key.equals("top_level_wellbeing")
             	|| key.equals("top_level_notifications")){
                 preference.setLayoutResource(R.layout.superioros_dashboard_preference_middle);
@@ -268,7 +268,10 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                 preference.setLayoutResource(R.layout.superioros_dashboard_preference_bottom);
             } else if (key.equals("top_level_accounts") && gAppsExists){
                 preference.setLayoutResource(R.layout.superioros_dashboard_preference_middle);
-            } else {
+            } else if (key.equals("top_level_crdroid")) {
+                preference.setLayoutResource(R.layout.superioros_dashboard_preference_single);
+            }
+            else {
                 preference.setLayoutResource(R.layout.superioros_dashboard_preference_bottom);
             }
        }
