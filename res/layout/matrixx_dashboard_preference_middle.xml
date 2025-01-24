@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright 2023 The SuperiorOS Project
+     Copyright 2024-25 The Project Matrixx 
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,12 +16,12 @@
 -->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/container"
-    style="@style/superiorDashboardPreferenceBottom"
+    style="@style/matrixxPreferenceMiddle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <include
-        layout="@layout/superioros_dashboard_pref"
+        layout="@layout/matrixx_dashboard_pref"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

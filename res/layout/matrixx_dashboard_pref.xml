@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright 2023 The SuperiorOS Project
+     Copyright 2024-25 The Project Matrixx 
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -57,7 +57,7 @@
             android:layout_height="wrap_content"
             android:ellipsize="marquee"
             android:singleLine="true"
-            style="@style/superiorTextPrimaryMedium" />
+            style="@style/matrixxTextPrimaryMedium" />
 
         <TextView
             android:id="@android:id/summary"
@@ -67,7 +67,7 @@
             android:layout_alignStart="@android:id/title"
             android:layout_marginTop="4dp"
             android:singleLine="true"
-            style="@style/superiorTextSecondary" />
+            style="@style/matrixxTextSecondary" />
 
     </RelativeLayout>
 
