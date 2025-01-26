@@ -31,7 +31,6 @@
         android:paddingBottom="4dp">
         <ImageView
             android:id="@android:id/icon"
-            android:tint="?android:attr/colorAccent"
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:adjustViewBounds="true"
